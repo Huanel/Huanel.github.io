@@ -1,0 +1,15 @@
+title: Huanel
+description: Apps para iPhone, iPad y Apple Watch.
+url: https://huanel.github.io
+
+# La política de cada app se arma con este layout, así que el texto común vive
+# en un solo lugar y no se copia por repositorio.
+defaults:
+  - scope:
+      path: privacy
+      type: pages
+    values:
+      layout: privacy
+
+exclude:
+  - README.md

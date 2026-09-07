@@ -1,0 +1,66 @@
+---
+app: JellyTV
+permalink: /privacy/jellytv/
+updated: 7 de septiembre de 2026
+repo: https://github.com/Huanel/JellyTV/issues
+retention_note: >-
+  Cerrar sesión desde la aplicación borra del dispositivo la dirección del
+  servidor y las credenciales de acceso. Lo que ese servidor haya registrado por
+  su cuenta —por ejemplo, tu historial de reproducción— se administra desde el
+  servidor, no desde esta aplicación.
+---
+
+<p class="draft">
+  <strong>Borrador.</strong> Revisá que describa la app como la vas a publicar
+  antes de usar esta URL en App Store Connect. Está escrita a partir del código
+  actual.
+</p>
+
+<p>
+  JellyTV es un cliente de Jellyfin para Apple TV. Se conecta a un servidor
+  Jellyfin que vos indicás —el tuyo o el de quien te dé acceso— y reproduce
+  desde ahí tu propia biblioteca. No requiere crear una cuenta con la
+  desarrolladora, no muestra publicidad y no usa herramientas de analítica de
+  terceros.
+</p>
+
+<h2>Conexión con tu servidor</h2>
+<p>
+  Esta es la diferencia importante con el resto de las aplicaciones: JellyTV sí
+  se comunica por red, siempre y únicamente con el servidor que vos elegís.
+</p>
+<p>
+  Para iniciar sesión, la aplicación envía el usuario y la contraseña que
+  escribís a la dirección de servidor que indicaste. A partir de ahí pide las
+  bibliotecas y reproduce el video desde ese mismo servidor.
+</p>
+<p>
+  La desarrolladora no opera ese servidor, no lo elige y no tiene acceso a él ni
+  a lo que registre. Lo que ese servidor haga con tus datos —incluido tu
+  historial de reproducción— depende de quién lo administre y de sus propias
+  políticas. Si el servidor no usa una conexión cifrada, los datos viajan sin
+  cifrar por tu red.
+</p>
+
+<h2>Datos que guarda la aplicación</h2>
+<p>
+  JellyTV guarda en el dispositivo lo necesario para no pedirte los datos en
+  cada uso:
+</p>
+<ul>
+  <li>la dirección del servidor que indicaste;</li>
+  <li>tu identificador de usuario en ese servidor;</li>
+  <li>un token de acceso emitido por ese servidor;</li>
+  <li>un identificador de dispositivo generado por la aplicación, que el
+    servidor usa para reconocer esta instalación.</li>
+</ul>
+<p>
+  Tu contraseña no se guarda: se usa una única vez para obtener el token. Nada
+  de esto se envía a servidores de la desarrolladora.
+</p>
+
+<h2>Permisos</h2>
+<p>
+  JellyTV no pide acceso a fotos, contactos ni ubicación. Necesita acceso a la
+  red para poder hablar con el servidor que configuraste.
+</p>

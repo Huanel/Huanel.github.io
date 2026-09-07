@@ -1,0 +1,5 @@
+# El sitio no se lista en buscadores, pero las paginas siguen siendo publicas:
+# App Store Connect muestra el enlace de la politica en la ficha de cada app y
+# cualquiera tiene que poder abrirlo sin registrarse ni pedir permiso.
+User-agent: *
+Disallow: /
