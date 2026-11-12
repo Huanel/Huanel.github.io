@@ -11,5 +11,10 @@ defaults:
     values:
       layout: privacy
 
+# Para que las direcciones viejas sigan andando cuando una app cambia de
+# nombre (MangaReader pasó a llamarse Koma Reader).
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - README.md
