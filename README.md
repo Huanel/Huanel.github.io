@@ -33,7 +33,7 @@ la página de esa app; el layout no se toca. Para retención hay un campo
 
 ## Por qué una URL por app y no una sola compartida
 
-Las apps manejan datos distintos: StitchCounter no toca la red, MangaReader lee
+Las apps manejan datos distintos: StitchCounter no toca la red, Koma Reader lee
 archivos que elegís, JellyTV manda credenciales a un servidor que vos indicás.
 Una página única obligaría a que la política del contador de tejido hablara de
 tokens y servidores, y bastaría con que una app cambiara para dejar el texto
